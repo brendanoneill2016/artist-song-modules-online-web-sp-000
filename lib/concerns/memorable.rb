@@ -9,9 +9,14 @@ module Memorable
     self.all.count
     end
     
+
+  end 
+  
+  module InstanceMethods
+  
     def initialize
-     self.all << self
+    self.all << self
     end
     
+  end
     
-  end 
